@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  background-color: rgb(133, 55, 207);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+i {
+  font-size: 3rem;
+  color: white;
+}
+.twitter,
+.youtube,
+.facebook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
